@@ -10,7 +10,7 @@ This is a structured React revision series designed to reinforce core React conc
 
 - **Lecture 01**: React fundamentals, hooks, and state management
 - **Lecture 02**: React Fiber architecture and performance optimization
-- **More lectures coming soon...**
+- **Lecture 03**: Props, component composition, and data mapping
 
 ## 📋 What You'll Learn
 
@@ -30,11 +30,20 @@ This is a structured React revision series designed to reinforce core React conc
 - ✅ Error boundaries and error handling
 - ✅ Priority-based task management
 
+### Lecture 03 - Props & Component Composition
+- ✅ Props and data flow between components
+- ✅ Component reusability and composition
+- ✅ Array mapping with `.map()` for dynamic rendering
+- ✅ Default props using ES6 parameters
+- ✅ Tailwind CSS integration and utility classes
+- ✅ Key prop importance for React reconciliation
+
 ## 🛠️ Tech Stack
 
 - **React**: ^19.1.1 (Latest version)
 - **React DOM**: ^19.1.1
 - **Vite**: ^7.1.7 (Build tool and dev server)
+- **Tailwind CSS**: ^4.1.14 (Utility-first CSS framework)
 - **ESLint**: ^9.36.0 (Code linting)
 
 ## 📦 Getting Started
@@ -58,6 +67,13 @@ This is a structured React revision series designed to reinforce core React conc
    ```bash
    cd lecture02
    # Read the comprehensive React Fiber guide in README.md
+   ```
+
+   ### For Lecture 03 (Props & Components)
+   ```bash
+   cd lecture03
+   npm install
+   npm run dev
    ```
 
 ## 🏃‍♂️ Running the Application
@@ -98,6 +114,16 @@ React_Js2.O/
 │   └── README.md                # Detailed lecture guide
 ├── lecture02/                    # 📚 Theory: React Fiber
 │   └── README.md                # Complete Fiber architecture guide
+├── lecture03/                    # 🎨 Hands-on: Props & Components
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Card.jsx         # Reusable Card component
+│   │   ├── App.jsx              # Data mapping & props demonstration
+│   │   ├── App.css              # Component styles
+│   │   └── main.jsx             # Entry point
+│   ├── package.json             # Dependencies & scripts
+│   ├── vite.config.js           # Vite configuration
+│   └── README.md                # Props and components guide
 ├── README.md                     # Main project overview
 └── .git/                        # Git repository
 ```
@@ -125,6 +151,17 @@ React_Js2.O/
   - Error boundaries and improved error handling
   - Comparison: React 15 vs React 16+ architecture
 
+### 🎨 Lecture 03: Props & Component Composition (Practical)
+**Location**: `lecture03/`
+- **Project Type**: Dynamic Card Interface with Tailwind CSS
+- **Key Concepts**:
+  - Props and data flow from parent to child components
+  - Component reusability and composition patterns
+  - Array mapping with `.map()` for dynamic list rendering
+  - Default props using modern ES6 parameter syntax
+  - Tailwind CSS utility classes and responsive design
+  - React reconciliation with proper key props
+
 ## 🎯 Learning Objectives
 
 This project covers essential React concepts:
@@ -141,10 +178,10 @@ This project covers essential React concepts:
 ### ✅ Completed Lectures
 - [x] **Lecture 01**: React Fundamentals & useState Hook
 - [x] **Lecture 02**: React Fiber Architecture & Performance
+- [x] **Lecture 03**: Props & Component Composition
 
 ### 🚧 Upcoming Lectures
-- [ ] **Lecture 03**: useEffect Hook & Side Effects
-- [ ] **Lecture 04**: Props & Component Composition
+- [ ] **Lecture 04**: useEffect Hook & Side Effects
 - [ ] **Lecture 05**: Conditional Rendering & Lists
 - [ ] **Lecture 06**: Form Handling & Controlled Components
 - [ ] **Lecture 07**: Context API & Global State
@@ -161,10 +198,11 @@ This project covers essential React concepts:
 - **Repository**: Uses Development branch for active work
 
 ### Study Approach
-- **Lecture 01**: Hands-on coding practice
+- **Lecture 01**: Hands-on coding practice with state management
 - **Lecture 02**: Conceptual understanding through comprehensive documentation
+- **Lecture 03**: Practical component building with props and styling
 - Each lecture builds upon previous concepts
-- Practical examples reinforce theoretical knowledge
+- Mix of theoretical knowledge and practical implementation
 
 ## 🤝 Contributing
 
