@@ -4,6 +4,9 @@ function App() {
   const [counter,setCounter] = useState(23);
    const addCounter = ()=>{
       setCounter(counter+1)
+      setCounter(counter+1)
+      setCounter(counter+1)
+      setCounter(counter+1)
   }
 
   const removeCounter = ()=>{

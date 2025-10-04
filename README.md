@@ -11,6 +11,7 @@ This is a structured React revision series designed to reinforce core React conc
 - **Lecture 01**: React fundamentals, hooks, and state management
 - **Lecture 02**: React Fiber architecture and performance optimization
 - **Lecture 03**: Props, component composition, and data mapping
+- **Lecture 04**: useEffect hook, localStorage, and side effects
 
 ## 📋 What You'll Learn
 
@@ -37,6 +38,14 @@ This is a structured React revision series designed to reinforce core React conc
 - ✅ Default props using ES6 parameters
 - ✅ Tailwind CSS integration and utility classes
 - ✅ Key prop importance for React reconciliation
+
+### Lecture 04 - useEffect Hook & localStorage
+- ✅ useEffect hook for managing side effects
+- ✅ localStorage integration for persistent state
+- ✅ Advanced useState patterns with initializer functions
+- ✅ Dependency arrays and effect optimization
+- ✅ Dynamic styling with inline styles and Tailwind
+- ✅ Browser API integration and error handling
 
 ## 🛠️ Tech Stack
 
@@ -72,6 +81,13 @@ This is a structured React revision series designed to reinforce core React conc
    ### For Lecture 03 (Props & Components)
    ```bash
    cd lecture03
+   npm install
+   npm run dev
+   ```
+
+   ### For Lecture 04 (useEffect & localStorage)
+   ```bash
+   cd lecture04
    npm install
    npm run dev
    ```
@@ -124,6 +140,15 @@ React_Js2.O/
 │   ├── package.json             # Dependencies & scripts
 │   ├── vite.config.js           # Vite configuration
 │   └── README.md                # Props and components guide
+├── lecture04/                    # 🎯 Hands-on: useEffect & localStorage
+│   ├── src/
+│   │   ├── App.jsx              # Background color changer with persistence
+│   │   ├── App.css              # Component styles
+│   │   ├── index.css            # Global styles + Tailwind
+│   │   └── main.jsx             # Entry point
+│   ├── package.json             # Dependencies & scripts
+│   ├── vite.config.js           # Vite configuration
+│   └── README.md                # useEffect and localStorage guide
 ├── README.md                     # Main project overview
 └── .git/                        # Git repository
 ```
@@ -162,6 +187,17 @@ React_Js2.O/
   - Tailwind CSS utility classes and responsive design
   - React reconciliation with proper key props
 
+### 🎯 Lecture 04: useEffect Hook & localStorage (Practical)
+**Location**: `lecture04/`
+- **Project Type**: Interactive Background Color Changer with Persistence
+- **Key Concepts**:
+  - useEffect hook for managing side effects and lifecycle
+  - localStorage integration for persistent state across sessions
+  - Advanced useState patterns with lazy initializer functions
+  - Dependency arrays for optimizing effect execution
+  - Dynamic styling combining Tailwind CSS with inline styles
+  - Browser API integration and graceful error handling
+
 ## 🎯 Learning Objectives
 
 This project covers essential React concepts:
@@ -179,9 +215,9 @@ This project covers essential React concepts:
 - [x] **Lecture 01**: React Fundamentals & useState Hook
 - [x] **Lecture 02**: React Fiber Architecture & Performance
 - [x] **Lecture 03**: Props & Component Composition
+- [x] **Lecture 04**: useEffect Hook & localStorage
 
 ### 🚧 Upcoming Lectures
-- [ ] **Lecture 04**: useEffect Hook & Side Effects
 - [ ] **Lecture 05**: Conditional Rendering & Lists
 - [ ] **Lecture 06**: Form Handling & Controlled Components
 - [ ] **Lecture 07**: Context API & Global State
@@ -201,8 +237,9 @@ This project covers essential React concepts:
 - **Lecture 01**: Hands-on coding practice with state management
 - **Lecture 02**: Conceptual understanding through comprehensive documentation
 - **Lecture 03**: Practical component building with props and styling
+- **Lecture 04**: Advanced hooks and browser API integration
 - Each lecture builds upon previous concepts
-- Mix of theoretical knowledge and practical implementation
+- Progressive complexity from basics to advanced patterns
 
 ## 🤝 Contributing
 
